@@ -1,0 +1,35 @@
+.section_after{
+	position: relative;
+		&:after{
+		content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 9%;
+    height: 100%;
+    z-index: -1;
+    background-color:$darken-gray;
+    @media screen and (min-width: 1135px) {
+    	background-color: transparent!important;
+    }
+     @media screen and (max-width: 768px) {
+    	background-color: transparent!important;
+    }
+	}
+}
+
+#scroll-up{
+	display: block;
+	padding:5px 15px;
+	background-color: $lighten-gray;
+	color:#fff;
+	position: fixed;
+	right: 15px;
+	bottom: 15px;
+	z-index: 1000;
+	display: none;
+	@include transition(all 0.2s linear);
+	&:hover{
+		background-color: $darken-red;
+	}
+}
