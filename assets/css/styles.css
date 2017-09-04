@@ -41,22 +41,19 @@
 .changa-one {
   font-family: 'changa-one'; }
 
-.section_after, #middle-slider .middle-slider, #mission-section, #final-section, #breadcrump {
+.section_after, #mission-section, #final-section, #breadcrump {
   position: relative; }
-  .section_after:after, #middle-slider .middle-slider:after, #mission-section:after, #final-section:after, #breadcrump:after {
+  .section_after:after, #mission-section:after, #final-section:after, #breadcrump:after {
     content: "";
     position: absolute;
     top: 0;
     right: 0;
-    width: 9%;
+    width: 16%;
     height: 100%;
     z-index: -1;
     background-color: #3C3C3C; }
-    @media screen and (min-width: 1135px) {
-      .section_after:after, #middle-slider .middle-slider:after, #mission-section:after, #final-section:after, #breadcrump:after {
-        background-color: transparent !important; } }
     @media screen and (max-width: 768px) {
-      .section_after:after, #middle-slider .middle-slider:after, #mission-section:after, #final-section:after, #breadcrump:after {
+      .section_after:after, #mission-section:after, #final-section:after, #breadcrump:after {
         background-color: transparent !important; } }
 
 #scroll-up {
@@ -77,6 +74,30 @@
   transition: all 0.2s linear; }
   #scroll-up:hover {
     background-color: #D84846; }
+
+#language-box {
+  position: absolute;
+  z-index: 100;
+  top: 15%;
+  right: 0;
+  padding-left: 0;
+  background-color: #D84846; }
+  #language-box li {
+    list-style-type: none; }
+    #language-box li a {
+      padding: 8px 10px;
+      text-decoration: none;
+      color: #fff;
+      display: block;
+      -webkit-transition: all 0.2s linear;
+      -khtml-transition: all 0.2s linear;
+      -moz-transition: all 0.2s linear;
+      -ms-transition: all 0.2s linear;
+      -o-transition: all 0.2s linear;
+      transition: all 0.2s linear; }
+      #language-box li a:hover, #language-box li a:focus {
+        background-color: #fff;
+        color: #D84846; }
 
 #section-header .navbar_custom {
   background-color: #D84846;
@@ -206,11 +227,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0; }
-
-#middle-slider .middle-slider {
-  height: 200px;
-  width: 100%;
-  background-color: #3C3C3C; }
 
 #mission-section {
   overflow: hidden; }
@@ -352,6 +368,8 @@
 #breadcrump {
   position: relative;
   margin-bottom: 30px; }
+  #breadcrump:after {
+    background-color: #4A4A4A; }
   #breadcrump .breadcrump-section ol {
     margin-bottom: 0 !important;
     border-radius: 0;

@@ -5,13 +5,13 @@
     position: absolute;
     top: 0;
     right: 0;
-    width: 9%;
+    width: 16%;
     height: 100%;
     z-index: -1;
     background-color:$darken-gray;
-    @media screen and (min-width: 1135px) {
-    	background-color: transparent!important;
-    }
+    // @media screen and (min-width: 1135px) {
+    // 	background-color: transparent!important;
+    // }
      @media screen and (max-width: 768px) {
     	background-color: transparent!important;
     }
