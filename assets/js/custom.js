@@ -39,3 +39,9 @@ function scrollTop() {
       $("#scroll-up").fadeOut('1000');
     }
   });
+
+
+// figure hover
+// $('.figure-article').on('mouseover',function(){
+//   $('#news-events-section::after').css('bottom','0');
+// });

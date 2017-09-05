@@ -24,7 +24,7 @@
 		text-decoration: none;
 		color:#fff;
 		display: block;
-		@include transition(all 0.2s linear);
+		@include transition();
 		&:hover,
 		&:focus{
 			background-color: #fff;
@@ -45,7 +45,7 @@
 		background-color: $darken-red;
 		padding: 0;
 		.nav-item{
-			@include transition(all 0.2s linear);
+			@include transition();
 			padding: 33px 42px 33px 42px;
 			cursor: pointer;
 			position: relative;
@@ -69,7 +69,7 @@
 					span{
 						position: relative;
 						display: inline-block;
-						@include transition(all 0.2s linear);
+						@include transition();
 						&:after{
 							position: absolute;
 							font-size: 16px;
@@ -187,7 +187,64 @@
 			background-position: 0;
 		}
 }
-
+// NEWS-EVENTS
+#news-events-section{
+	position: relative;
+	overflow: hidden;
+	.last-news-events{
+		padding: 15px 0;
+		h3{
+			color:$gray;
+			margin-bottom: 15px;
+		}
+		&-item{
+			display: block;
+			text-decoration: none;
+			color:$darken-gray;
+			margin-bottom: 15px;
+			.fa-clock-o, &-date{
+				color:$darken-red;
+				font-size: 16px;
+				margin-right: 5px;
+			}
+		}
+	}
+	.figure-article{
+		text-decoration: none;
+		color:$gray;
+				figure{
+				height: 100%;
+				position: absolute;
+				right: -212px;
+				top:0;
+				bottom: 0;
+				overflow: hidden;
+				width: 200px;
+				background-color: $darken-red;
+				img{
+					position: relative;
+					z-index: 2;
+				}
+				&:after{
+				content: "";
+		    position: absolute;
+		    bottom:-228px;
+		    right: 0;
+		    width: 200px;
+		    height: 100%;
+		    z-index: 1;
+		    background-color:$lighten-gray;
+		    @include transition();
+			}
+			}
+	&:hover{
+		color:$lighten-gray;
+		figure:after{
+			bottom:0;
+		}
+	}
+	}
+}
 
 // MISSION SECTION
 #mission-section{
@@ -212,7 +269,7 @@
 				bottom: 0;
 				left: 0;
 				height: 100%;
-				@include transition(all 0.2s linear);
+				@include transition();
 				z-index: -5;
 				content: '';
 			}
@@ -276,7 +333,7 @@
 				display: block;
 				line-height: 1;
 				letter-spacing: 1px;
-				@include transition(all 0.2s linear);
+				@include transition();
 				&:hover{
 					color:#fff;
 				}
@@ -290,7 +347,7 @@
 					a{
 						color:$lighten-gray;
 						text-decoration: none;
-						@include transition(all 0.2s linear);
+						@include transition();
 						&:hover{
 							color:#fff;
 						}
@@ -329,7 +386,7 @@
 				left: 0;
 				background-color: transparent;
 				cursor: pointer;
-				@include transition(all 0.2s linear);
+				@include transition();
 				&:hover{
 					background-position: 0% 100%;
 				}
@@ -365,7 +422,7 @@
 					.breadcrumb-item > a{
 						color:$lighten-gray;
 						text-decoration: none;
-						@include transition(all 0.2s linear);
+						@include transition();
 						&:hover{
 							color:#fff;
 						}
@@ -399,7 +456,7 @@
 				.form-control_custom{
 					border-radius: 0;
 					border-color: $lighten-gray-3;	
-					@include transition(all 0.2s linear);
+					@include transition();
 					&:focus{
 						border-color: $gray;
 					}
@@ -412,7 +469,7 @@
 					border-radius: 0;
 					box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.18);
 					margin-bottom: 15px;
-					@include transition(all 0.2s linear);
+					@include transition();
 					&:hover,
 					&:focus{
 						background-color: $green;
@@ -434,7 +491,7 @@
 			.social-icon-box{
 				display: inline-block;
 				margin-right: 5px;
-				@include transition(all 0.2s linear);
+				@include transition();
 				-webkit-perspective: 800px;
 				&:hover{
 					-webkit-transform:rotateY(180deg);

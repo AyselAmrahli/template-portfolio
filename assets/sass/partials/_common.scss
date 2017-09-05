@@ -18,6 +18,16 @@
 	}
 }
 
+// static article
+.static-article{
+	padding: 15px 0;
+	text-align: justify;
+	height: 100%;
+	h4{
+		color:$gray;
+	}
+}
+
 #scroll-up{
 	display: block;
 	padding:5px 15px;

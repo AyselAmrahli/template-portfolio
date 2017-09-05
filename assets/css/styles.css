@@ -56,6 +56,13 @@
       .section_after:after, #mission-section:after, #final-section:after, #breadcrump:after {
         background-color: transparent !important; } }
 
+.static-article {
+  padding: 15px 0;
+  text-align: justify;
+  height: 100%; }
+  .static-article h4 {
+    color: #4A4A4A; }
+
 #scroll-up {
   display: block;
   padding: 5px 15px;
@@ -89,12 +96,12 @@
       text-decoration: none;
       color: #fff;
       display: block;
-      -webkit-transition: all 0.2s linear;
-      -khtml-transition: all 0.2s linear;
-      -moz-transition: all 0.2s linear;
-      -ms-transition: all 0.2s linear;
-      -o-transition: all 0.2s linear;
-      transition: all 0.2s linear; }
+      -webkit-transition: all 0.2s ease-in-out 0s;
+      -khtml-transition: all 0.2s ease-in-out 0s;
+      -moz-transition: all 0.2s ease-in-out 0s;
+      -ms-transition: all 0.2s ease-in-out 0s;
+      -o-transition: all 0.2s ease-in-out 0s;
+      transition: all 0.2s ease-in-out 0s; }
       #language-box li a:hover, #language-box li a:focus {
         background-color: #fff;
         color: #D84846; }
@@ -103,12 +110,12 @@
   background-color: #D84846;
   padding: 0; }
   #section-header .navbar_custom .nav-item {
-    -webkit-transition: all 0.2s linear;
-    -khtml-transition: all 0.2s linear;
-    -moz-transition: all 0.2s linear;
-    -ms-transition: all 0.2s linear;
-    -o-transition: all 0.2s linear;
-    transition: all 0.2s linear;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -khtml-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
     padding: 33px 42px 33px 42px;
     cursor: pointer;
     position: relative; }
@@ -134,12 +141,12 @@
       #section-header .navbar_custom .nav-item .nav-link span {
         position: relative;
         display: inline-block;
-        -webkit-transition: all 0.2s linear;
-        -khtml-transition: all 0.2s linear;
-        -moz-transition: all 0.2s linear;
-        -ms-transition: all 0.2s linear;
-        -o-transition: all 0.2s linear;
-        transition: all 0.2s linear; }
+        -webkit-transition: all 0.2s ease-in-out 0s;
+        -khtml-transition: all 0.2s ease-in-out 0s;
+        -moz-transition: all 0.2s ease-in-out 0s;
+        -ms-transition: all 0.2s ease-in-out 0s;
+        -o-transition: all 0.2s ease-in-out 0s;
+        transition: all 0.2s ease-in-out 0s; }
         #section-header .navbar_custom .nav-item .nav-link span:after {
           position: absolute;
           font-size: 16px;
@@ -228,6 +235,58 @@
   background-size: cover;
   background-position: 0; }
 
+#news-events-section {
+  position: relative;
+  overflow: hidden; }
+  #news-events-section .last-news-events {
+    padding: 15px 0; }
+    #news-events-section .last-news-events h3 {
+      color: #4A4A4A;
+      margin-bottom: 15px; }
+    #news-events-section .last-news-events-item {
+      display: block;
+      text-decoration: none;
+      color: #3C3C3C;
+      margin-bottom: 15px; }
+      #news-events-section .last-news-events-item .fa-clock-o, #news-events-section .last-news-events-item-date {
+        color: #D84846;
+        font-size: 16px;
+        margin-right: 5px; }
+  #news-events-section .figure-article {
+    text-decoration: none;
+    color: #4A4A4A; }
+    #news-events-section .figure-article figure {
+      height: 100%;
+      position: absolute;
+      right: -212px;
+      top: 0;
+      bottom: 0;
+      overflow: hidden;
+      width: 200px;
+      background-color: #D84846; }
+      #news-events-section .figure-article figure img {
+        position: relative;
+        z-index: 2; }
+      #news-events-section .figure-article figure:after {
+        content: "";
+        position: absolute;
+        bottom: -228px;
+        right: 0;
+        width: 200px;
+        height: 100%;
+        z-index: 1;
+        background-color: #8F8C8C;
+        -webkit-transition: all 0.2s ease-in-out 0s;
+        -khtml-transition: all 0.2s ease-in-out 0s;
+        -moz-transition: all 0.2s ease-in-out 0s;
+        -ms-transition: all 0.2s ease-in-out 0s;
+        -o-transition: all 0.2s ease-in-out 0s;
+        transition: all 0.2s ease-in-out 0s; }
+    #news-events-section .figure-article:hover {
+      color: #8F8C8C; }
+      #news-events-section .figure-article:hover figure:after {
+        bottom: 0; }
+
 #mission-section {
   overflow: hidden; }
   #mission-section .mission-section {
@@ -249,12 +308,12 @@
         bottom: 0;
         left: 0;
         height: 100%;
-        -webkit-transition: all 0.2s linear;
-        -khtml-transition: all 0.2s linear;
-        -moz-transition: all 0.2s linear;
-        -ms-transition: all 0.2s linear;
-        -o-transition: all 0.2s linear;
-        transition: all 0.2s linear;
+        -webkit-transition: all 0.2s ease-in-out 0s;
+        -khtml-transition: all 0.2s ease-in-out 0s;
+        -moz-transition: all 0.2s ease-in-out 0s;
+        -ms-transition: all 0.2s ease-in-out 0s;
+        -o-transition: all 0.2s ease-in-out 0s;
+        transition: all 0.2s ease-in-out 0s;
         z-index: -5;
         content: ''; }
       #mission-section .mission-section-wrapper:hover:before {
@@ -296,12 +355,12 @@
       display: block;
       line-height: 1;
       letter-spacing: 1px;
-      -webkit-transition: all 0.2s linear;
-      -khtml-transition: all 0.2s linear;
-      -moz-transition: all 0.2s linear;
-      -ms-transition: all 0.2s linear;
-      -o-transition: all 0.2s linear;
-      transition: all 0.2s linear; }
+      -webkit-transition: all 0.2s ease-in-out 0s;
+      -khtml-transition: all 0.2s ease-in-out 0s;
+      -moz-transition: all 0.2s ease-in-out 0s;
+      -ms-transition: all 0.2s ease-in-out 0s;
+      -o-transition: all 0.2s ease-in-out 0s;
+      transition: all 0.2s ease-in-out 0s; }
       #final-section .final-section .final-left-section .footer-brand-name:hover {
         color: #fff; }
     #final-section .final-section .final-left-section b {
@@ -312,12 +371,12 @@
         #final-section .final-section .final-left-section b span a {
           color: #8F8C8C;
           text-decoration: none;
-          -webkit-transition: all 0.2s linear;
-          -khtml-transition: all 0.2s linear;
-          -moz-transition: all 0.2s linear;
-          -ms-transition: all 0.2s linear;
-          -o-transition: all 0.2s linear;
-          transition: all 0.2s linear; }
+          -webkit-transition: all 0.2s ease-in-out 0s;
+          -khtml-transition: all 0.2s ease-in-out 0s;
+          -moz-transition: all 0.2s ease-in-out 0s;
+          -ms-transition: all 0.2s ease-in-out 0s;
+          -o-transition: all 0.2s ease-in-out 0s;
+          transition: all 0.2s ease-in-out 0s; }
           #final-section .final-section .final-left-section b span a:hover {
             color: #fff; }
   #final-section .final-section .final-right-section {
@@ -348,12 +407,12 @@
         left: 0;
         background-color: transparent;
         cursor: pointer;
-        -webkit-transition: all 0.2s linear;
-        -khtml-transition: all 0.2s linear;
-        -moz-transition: all 0.2s linear;
-        -ms-transition: all 0.2s linear;
-        -o-transition: all 0.2s linear;
-        transition: all 0.2s linear; }
+        -webkit-transition: all 0.2s ease-in-out 0s;
+        -khtml-transition: all 0.2s ease-in-out 0s;
+        -moz-transition: all 0.2s ease-in-out 0s;
+        -ms-transition: all 0.2s ease-in-out 0s;
+        -o-transition: all 0.2s ease-in-out 0s;
+        transition: all 0.2s ease-in-out 0s; }
         #final-section .final-section .final-right-section form .form-group_custom .btn_custom:hover {
           background-position: 0% 100%; }
         #final-section .final-section .final-right-section form .form-group_custom .btn_custom:focus {
@@ -378,12 +437,12 @@
     #breadcrump .breadcrump-section ol .breadcrumb-item > a {
       color: #8F8C8C;
       text-decoration: none;
-      -webkit-transition: all 0.2s linear;
-      -khtml-transition: all 0.2s linear;
-      -moz-transition: all 0.2s linear;
-      -ms-transition: all 0.2s linear;
-      -o-transition: all 0.2s linear;
-      transition: all 0.2s linear; }
+      -webkit-transition: all 0.2s ease-in-out 0s;
+      -khtml-transition: all 0.2s ease-in-out 0s;
+      -moz-transition: all 0.2s ease-in-out 0s;
+      -ms-transition: all 0.2s ease-in-out 0s;
+      -o-transition: all 0.2s ease-in-out 0s;
+      transition: all 0.2s ease-in-out 0s; }
       #breadcrump .breadcrump-section ol .breadcrumb-item > a:hover {
         color: #fff; }
     #breadcrump .breadcrump-section ol .active {
@@ -403,12 +462,12 @@
 #contact-section .contact-left .form-group_custom .form-control_custom {
   border-radius: 0;
   border-color: #adadad;
-  -webkit-transition: all 0.2s linear;
-  -khtml-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -ms-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear; }
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -khtml-transition: all 0.2s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -ms-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s; }
   #contact-section .contact-left .form-group_custom .form-control_custom:focus {
     border-color: #4A4A4A; }
 #contact-section .contact-left .form-group_custom .btn_custom {
@@ -419,12 +478,12 @@
   border-radius: 0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.18);
   margin-bottom: 15px;
-  -webkit-transition: all 0.2s linear;
-  -khtml-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -ms-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear; }
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -khtml-transition: all 0.2s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -ms-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s; }
   #contact-section .contact-left .form-group_custom .btn_custom:hover, #contact-section .contact-left .form-group_custom .btn_custom:focus {
     background-color: #48a03e; }
 #contact-section .contact-right hr {
@@ -437,12 +496,12 @@
 #contact-section .contact-right .social-icon-box {
   display: inline-block;
   margin-right: 5px;
-  -webkit-transition: all 0.2s linear;
-  -khtml-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -ms-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -khtml-transition: all 0.2s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -ms-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
   -webkit-perspective: 800px; }
   #contact-section .contact-right .social-icon-box:hover {
     -webkit-transform: rotateY(180deg);
