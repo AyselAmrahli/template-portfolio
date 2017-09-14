@@ -41,7 +41,8 @@ function scrollTop() {
   });
 
 
-// figure hover
-// $('.figure-article').on('mouseover',function(){
-//   $('#news-events-section::after').css('bottom','0');
-// });
+ $('.owl-blog-article').owlCarousel({
+  items:1,
+  nav:true,
+  navText: ["<i class='fa fa-angle-left fa-4x'></i>","<i class='fa fa-angle-right fa-4x'></i>"]
+ });
