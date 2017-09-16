@@ -1,3 +1,11 @@
+// *** @author Aysel Amrahli***//
+// ----------------------------//
+
+// user select none
+p{
+	@include user-select-none();
+}
+
 .container_custom{
 	@media (min-width: 1200px) {
 		max-width: 1255px!important;
@@ -114,7 +122,7 @@
 	.right-sight-events{
 		padding: 30px 30px;
 		color:#fff;
-		background-color: $darken-red;
+		background-color: $red;
 		&-head {
 
 		}
@@ -170,7 +178,36 @@
 		font-size: 14px;
 		.fa{
 			margin-right: 10px;
-			color:$darken-red;
+			color:$red;
 		}
+	}
+}
+
+// share-social-networks
+.share-social-networks{
+	padding:30px 0;
+	.share{
+		display: inline-block;
+		padding:4px 12px;
+		margin-right: 15px;
+		text-decoration: none;
+		font-size: 12px;
+		@include border-radius(3px);
+		.fa-twitter,.fa-facebook{
+			margin-right: 5px;
+		}
+	}
+	.share-twitter{
+		background-color: $twitter;
+		color:#fff;
+	}
+	.share-facebook{
+		background-color: $facebook;
+		color:#fff;
+	}
+	.share-google-plus{
+		background-color: #fff;
+		border:1px solid #ddd;
+		color:$google-plus;
 	}
 }
