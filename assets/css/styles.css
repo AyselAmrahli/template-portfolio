@@ -264,6 +264,21 @@
   color: #4A4A4A;
   margin-bottom: 30px; }
 
+#error-page-body {
+  background-color: #ddd;
+  padding: 100px; }
+  #error-page-body .error-page {
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
+    -webkit-moz-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
+    -webkit-ms-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
+    -webkit-o-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
+    background-color: #fff;
+    text-align: center;
+    padding: 50px; }
+    #error-page-body .error-page-text {
+      font-size: 60px; }
+
 #language-box {
   position: absolute;
   z-index: 100;

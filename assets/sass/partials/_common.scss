@@ -289,3 +289,22 @@
 		margin-bottom: 30px;
 	}
 }
+
+// error-page
+#error-page-body{
+	background-color: #ddd;
+	padding: 100px;
+	.error-page{
+		-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.13);
+		-webkit-moz-shadow: 0 1px 3px rgba(0,0,0,0.13);
+		-webkit-ms-shadow: 0 1px 3px rgba(0,0,0,0.13);
+		-webkit-o-shadow: 0 1px 3px rgba(0,0,0,0.13);
+		box-shadow: 0 1px 3px rgba(0,0,0,0.13);
+		background-color: #fff;
+		text-align: center;
+		padding: 50px;
+		&-text{
+		font-size: 60px;
+	}
+	}
+}
