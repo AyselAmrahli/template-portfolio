@@ -448,7 +448,6 @@
 
 // FINAL SECTION
 #final-section{
-	margin-top: 30px;
 	@extend .section_after;
 	&:after{
 		background-color: $gray;

@@ -640,83 +640,81 @@
           margin-left: 5px;
           font-size: 18px; }
 
-#final-section {
-  margin-top: 30px; }
-  #final-section:after {
-    background-color: #4A4A4A; }
-  #final-section .final-section {
-    background-color: #4A4A4A; }
-    #final-section .final-section .final-left-section {
-      padding: 30px 30px; }
-      #final-section .final-section .final-left-section .footer-brand-name {
-        font-size: 60px;
-        color: #8F8C8C;
-        text-decoration: none;
-        display: block;
-        line-height: 1;
-        letter-spacing: 1px;
-        -webkit-transition: all 0.2s ease-in-out 0s;
-        -khtml-transition: all 0.2s ease-in-out 0s;
-        -moz-transition: all 0.2s ease-in-out 0s;
-        -ms-transition: all 0.2s ease-in-out 0s;
-        -o-transition: all 0.2s ease-in-out 0s;
-        transition: all 0.2s ease-in-out 0s; }
-        #final-section .final-section .final-left-section .footer-brand-name:hover {
-          color: #fff; }
-      #final-section .final-section .final-left-section b {
-        font-size: 16px;
-        color: #8F8C8C; }
-        #final-section .final-section .final-left-section b span {
-          display: block; }
-          #final-section .final-section .final-left-section b span a {
-            color: #8F8C8C;
-            text-decoration: none;
-            -webkit-transition: all 0.2s ease-in-out 0s;
-            -khtml-transition: all 0.2s ease-in-out 0s;
-            -moz-transition: all 0.2s ease-in-out 0s;
-            -ms-transition: all 0.2s ease-in-out 0s;
-            -o-transition: all 0.2s ease-in-out 0s;
-            transition: all 0.2s ease-in-out 0s; }
-            #final-section .final-section .final-left-section b span a:hover {
-              color: #fff; }
-    #final-section .final-section .final-right-section {
-      padding: 30px 30px; }
-      #final-section .final-section .final-right-section h3 {
-        font-size: 36px;
-        color: #8F8C8C;
-        letter-spacing: 1px; }
-      #final-section .final-section .final-right-section form .form-group_custom_footer {
-        margin-bottom: 0;
-        border: 1px solid #8F8C8C;
-        width: 100%; }
-        #final-section .final-section .final-right-section form .form-group_custom_footer .form-control_custom_footer {
-          width: 80%;
-          background-color: #4A4A4A;
-          border-color: #8F8C8C;
-          border-radius: 0;
+#final-section:after {
+  background-color: #4A4A4A; }
+#final-section .final-section {
+  background-color: #4A4A4A; }
+  #final-section .final-section .final-left-section {
+    padding: 30px 30px; }
+    #final-section .final-section .final-left-section .footer-brand-name {
+      font-size: 60px;
+      color: #8F8C8C;
+      text-decoration: none;
+      display: block;
+      line-height: 1;
+      letter-spacing: 1px;
+      -webkit-transition: all 0.2s ease-in-out 0s;
+      -khtml-transition: all 0.2s ease-in-out 0s;
+      -moz-transition: all 0.2s ease-in-out 0s;
+      -ms-transition: all 0.2s ease-in-out 0s;
+      -o-transition: all 0.2s ease-in-out 0s;
+      transition: all 0.2s ease-in-out 0s; }
+      #final-section .final-section .final-left-section .footer-brand-name:hover {
+        color: #fff; }
+    #final-section .final-section .final-left-section b {
+      font-size: 16px;
+      color: #8F8C8C; }
+      #final-section .final-section .final-left-section b span {
+        display: block; }
+        #final-section .final-section .final-left-section b span a {
           color: #8F8C8C;
-          display: inline;
-          border: none; }
-        #final-section .final-section .final-right-section form .form-group_custom_footer .btn_custom_footer {
-          background-image: url("../images/submit.png");
-          background-repeat: no-repeat;
-          background-position: 0% 0%;
-          height: 42px;
-          width: 42px;
-          position: relative;
-          left: 0;
-          background-color: transparent;
-          cursor: pointer;
+          text-decoration: none;
           -webkit-transition: all 0.2s ease-in-out 0s;
           -khtml-transition: all 0.2s ease-in-out 0s;
           -moz-transition: all 0.2s ease-in-out 0s;
           -ms-transition: all 0.2s ease-in-out 0s;
           -o-transition: all 0.2s ease-in-out 0s;
           transition: all 0.2s ease-in-out 0s; }
-          #final-section .final-section .final-right-section form .form-group_custom_footer .btn_custom_footer:hover {
-            background-position: 0% 100%; }
-          #final-section .final-section .final-right-section form .form-group_custom_footer .btn_custom_footer:focus {
-            outline: none; }
+          #final-section .final-section .final-left-section b span a:hover {
+            color: #fff; }
+  #final-section .final-section .final-right-section {
+    padding: 30px 30px; }
+    #final-section .final-section .final-right-section h3 {
+      font-size: 36px;
+      color: #8F8C8C;
+      letter-spacing: 1px; }
+    #final-section .final-section .final-right-section form .form-group_custom_footer {
+      margin-bottom: 0;
+      border: 1px solid #8F8C8C;
+      width: 100%; }
+      #final-section .final-section .final-right-section form .form-group_custom_footer .form-control_custom_footer {
+        width: 80%;
+        background-color: #4A4A4A;
+        border-color: #8F8C8C;
+        border-radius: 0;
+        color: #8F8C8C;
+        display: inline;
+        border: none; }
+      #final-section .final-section .final-right-section form .form-group_custom_footer .btn_custom_footer {
+        background-image: url("../images/submit.png");
+        background-repeat: no-repeat;
+        background-position: 0% 0%;
+        height: 42px;
+        width: 42px;
+        position: relative;
+        left: 0;
+        background-color: transparent;
+        cursor: pointer;
+        -webkit-transition: all 0.2s ease-in-out 0s;
+        -khtml-transition: all 0.2s ease-in-out 0s;
+        -moz-transition: all 0.2s ease-in-out 0s;
+        -ms-transition: all 0.2s ease-in-out 0s;
+        -o-transition: all 0.2s ease-in-out 0s;
+        transition: all 0.2s ease-in-out 0s; }
+        #final-section .final-section .final-right-section form .form-group_custom_footer .btn_custom_footer:hover {
+          background-position: 0% 100%; }
+        #final-section .final-section .final-right-section form .form-group_custom_footer .btn_custom_footer:focus {
+          outline: none; }
 
 .page-title {
   color: #4A4A4A;
