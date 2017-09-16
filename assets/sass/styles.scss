@@ -419,10 +419,10 @@
 		&-icon{
 			float: left;
 			color:#fff;
-			height: 200px;
 			padding-right: 15px;
 		}
 		&-content{
+			overflow: hidden;
 			&-head{
 				color:#fff;
 			}
@@ -448,6 +448,7 @@
 
 // FINAL SECTION
 #final-section{
+	margin-top: 30px;
 	@extend .section_after;
 	&:after{
 		background-color: $gray;
@@ -493,11 +494,11 @@
 				letter-spacing: 1px;
 			}
 			form{
-			.form-group_custom{
+			.form-group_custom_footer{
 				margin-bottom: 0;
 				border:1px solid $lighten-gray;
 				width: 100%;
-				.form-control_custom{
+				.form-control_custom_footer{
 				width: 80%;
 				background-color: $gray;
 				border-color: $lighten-gray;
@@ -506,7 +507,7 @@
 				display: inline;
 				border: none;
 			}
-			.btn_custom{
+			.btn_custom_footer{
 				background-image: url('../images/submit.png');
 				background-repeat: no-repeat;
 				background-position: 0% 0%;
@@ -577,34 +578,6 @@
 			}
 			p{
 				color:$gray;
-			}
-			.form-group_custom{
-				label{
-					color:$lighten-gray-3;
-					font-size: 12px;
-				}
-				.form-control_custom{
-					border-radius: 0;
-					border-color: $lighten-gray-3;	
-					@include transition();
-					&:focus{
-						border-color: $gray;
-					}
-				}
-				.btn_custom{
-					background-color: $darken-red;
-					color:#fff;
-					padding: 10px 40px;
-					cursor: pointer;
-					border-radius: 0;
-					box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.18);
-					margin-bottom: 15px;
-					@include transition();
-					&:hover,
-					&:focus{
-						background-color: $green;
-					}
-				}
 			}
 		}
 

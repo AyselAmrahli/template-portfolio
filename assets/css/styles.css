@@ -28,7 +28,7 @@
 .changa-one {
   font-family: 'changa-one'; }
 
-p {
+.user-select-none {
   -webkit-user-select: none;
   /* Chrome all / Safari all */
   -moz-user-select: none;
@@ -56,6 +56,37 @@ p {
     @media screen and (max-width: 768px) {
       .section_after:after, #blog-article:after, #press-centre-section:after, #mission-section:after, #final-section:after, #breadcrump:after {
         background-color: transparent !important; } }
+
+.form-group_custom label {
+  color: #adadad;
+  font-size: 12px; }
+.form-group_custom .form-control_custom {
+  border-radius: 0;
+  border-color: #adadad;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -khtml-transition: all 0.2s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -ms-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s; }
+  .form-group_custom .form-control_custom:focus {
+    border-color: #4A4A4A; }
+.form-group_custom .btn_custom {
+  background-color: #D84846;
+  color: #fff;
+  padding: 10px 40px;
+  cursor: pointer;
+  border-radius: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.18);
+  margin-bottom: 15px;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -khtml-transition: all 0.2s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -ms-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s; }
+  .form-group_custom .btn_custom:hover, .form-group_custom .btn_custom:focus {
+    background-color: #48a03e; }
 
 .static-article {
   padding: 15px 0;
@@ -196,6 +227,42 @@ p {
     background-color: #fff;
     border: 1px solid #ddd;
     color: #d34836; }
+
+.comment-box-written-by {
+  width: 100%;
+  height: auto;
+  margin: 30px 0;
+  padding: 15px 30px 30px 30px;
+  background-color: #4A4A4A; }
+  .comment-box-written-by h2 {
+    color: #fff;
+    margin-bottom: 15px; }
+  .comment-box-written-by-img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 15px;
+    background-image: url("../images/user.png");
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .comment-box-written-by-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  .comment-box-written-by-body {
+    color: #9a9a9a;
+    overflow: hidden; }
+    .comment-box-written-by-body span {
+      display: block;
+      margin-top: 15px; }
+      .comment-box-written-by-body span a {
+        color: #fff;
+        text-decoration: none; }
+.comment-box .no-comment {
+  color: #9a9a9a; }
+.comment-box .leave-comment {
+  color: #4A4A4A;
+  margin-bottom: 30px; }
 
 #language-box {
   position: absolute;
@@ -555,98 +622,101 @@ p {
     #mission-section .mission-section-icon {
       float: left;
       color: #fff;
-      height: 200px;
       padding-right: 15px; }
-    #mission-section .mission-section-content-head {
-      color: #fff; }
-    #mission-section .mission-section-content-title {
-      font-size: 14px;
-      margin-top: 15px;
-      color: #8F8C8C; }
-    #mission-section .mission-section-content a {
-      font-size: 16px;
-      color: #fff;
-      display: inline-block;
-      opacity: 0; }
-      #mission-section .mission-section-content a .fa-angle-right {
-        margin-left: 5px;
-        font-size: 18px; }
-
-#final-section:after {
-  background-color: #4A4A4A; }
-#final-section .final-section {
-  background-color: #4A4A4A; }
-  #final-section .final-section .final-left-section {
-    padding: 30px 30px; }
-    #final-section .final-section .final-left-section .footer-brand-name {
-      font-size: 60px;
-      color: #8F8C8C;
-      text-decoration: none;
-      display: block;
-      line-height: 1;
-      letter-spacing: 1px;
-      -webkit-transition: all 0.2s ease-in-out 0s;
-      -khtml-transition: all 0.2s ease-in-out 0s;
-      -moz-transition: all 0.2s ease-in-out 0s;
-      -ms-transition: all 0.2s ease-in-out 0s;
-      -o-transition: all 0.2s ease-in-out 0s;
-      transition: all 0.2s ease-in-out 0s; }
-      #final-section .final-section .final-left-section .footer-brand-name:hover {
+    #mission-section .mission-section-content {
+      overflow: hidden; }
+      #mission-section .mission-section-content-head {
         color: #fff; }
-    #final-section .final-section .final-left-section b {
-      font-size: 16px;
-      color: #8F8C8C; }
-      #final-section .final-section .final-left-section b span {
-        display: block; }
-        #final-section .final-section .final-left-section b span a {
-          color: #8F8C8C;
-          text-decoration: none;
-          -webkit-transition: all 0.2s ease-in-out 0s;
-          -khtml-transition: all 0.2s ease-in-out 0s;
-          -moz-transition: all 0.2s ease-in-out 0s;
-          -ms-transition: all 0.2s ease-in-out 0s;
-          -o-transition: all 0.2s ease-in-out 0s;
-          transition: all 0.2s ease-in-out 0s; }
-          #final-section .final-section .final-left-section b span a:hover {
-            color: #fff; }
-  #final-section .final-section .final-right-section {
-    padding: 30px 30px; }
-    #final-section .final-section .final-right-section h3 {
-      font-size: 36px;
-      color: #8F8C8C;
-      letter-spacing: 1px; }
-    #final-section .final-section .final-right-section form .form-group_custom {
-      margin-bottom: 0;
-      border: 1px solid #8F8C8C;
-      width: 100%; }
-      #final-section .final-section .final-right-section form .form-group_custom .form-control_custom {
-        width: 80%;
-        background-color: #4A4A4A;
-        border-color: #8F8C8C;
-        border-radius: 0;
+      #mission-section .mission-section-content-title {
+        font-size: 14px;
+        margin-top: 15px;
+        color: #8F8C8C; }
+      #mission-section .mission-section-content a {
+        font-size: 16px;
+        color: #fff;
+        display: inline-block;
+        opacity: 0; }
+        #mission-section .mission-section-content a .fa-angle-right {
+          margin-left: 5px;
+          font-size: 18px; }
+
+#final-section {
+  margin-top: 30px; }
+  #final-section:after {
+    background-color: #4A4A4A; }
+  #final-section .final-section {
+    background-color: #4A4A4A; }
+    #final-section .final-section .final-left-section {
+      padding: 30px 30px; }
+      #final-section .final-section .final-left-section .footer-brand-name {
+        font-size: 60px;
         color: #8F8C8C;
-        display: inline;
-        border: none; }
-      #final-section .final-section .final-right-section form .form-group_custom .btn_custom {
-        background-image: url("../images/submit.png");
-        background-repeat: no-repeat;
-        background-position: 0% 0%;
-        height: 42px;
-        width: 42px;
-        position: relative;
-        left: 0;
-        background-color: transparent;
-        cursor: pointer;
+        text-decoration: none;
+        display: block;
+        line-height: 1;
+        letter-spacing: 1px;
         -webkit-transition: all 0.2s ease-in-out 0s;
         -khtml-transition: all 0.2s ease-in-out 0s;
         -moz-transition: all 0.2s ease-in-out 0s;
         -ms-transition: all 0.2s ease-in-out 0s;
         -o-transition: all 0.2s ease-in-out 0s;
         transition: all 0.2s ease-in-out 0s; }
-        #final-section .final-section .final-right-section form .form-group_custom .btn_custom:hover {
-          background-position: 0% 100%; }
-        #final-section .final-section .final-right-section form .form-group_custom .btn_custom:focus {
-          outline: none; }
+        #final-section .final-section .final-left-section .footer-brand-name:hover {
+          color: #fff; }
+      #final-section .final-section .final-left-section b {
+        font-size: 16px;
+        color: #8F8C8C; }
+        #final-section .final-section .final-left-section b span {
+          display: block; }
+          #final-section .final-section .final-left-section b span a {
+            color: #8F8C8C;
+            text-decoration: none;
+            -webkit-transition: all 0.2s ease-in-out 0s;
+            -khtml-transition: all 0.2s ease-in-out 0s;
+            -moz-transition: all 0.2s ease-in-out 0s;
+            -ms-transition: all 0.2s ease-in-out 0s;
+            -o-transition: all 0.2s ease-in-out 0s;
+            transition: all 0.2s ease-in-out 0s; }
+            #final-section .final-section .final-left-section b span a:hover {
+              color: #fff; }
+    #final-section .final-section .final-right-section {
+      padding: 30px 30px; }
+      #final-section .final-section .final-right-section h3 {
+        font-size: 36px;
+        color: #8F8C8C;
+        letter-spacing: 1px; }
+      #final-section .final-section .final-right-section form .form-group_custom_footer {
+        margin-bottom: 0;
+        border: 1px solid #8F8C8C;
+        width: 100%; }
+        #final-section .final-section .final-right-section form .form-group_custom_footer .form-control_custom_footer {
+          width: 80%;
+          background-color: #4A4A4A;
+          border-color: #8F8C8C;
+          border-radius: 0;
+          color: #8F8C8C;
+          display: inline;
+          border: none; }
+        #final-section .final-section .final-right-section form .form-group_custom_footer .btn_custom_footer {
+          background-image: url("../images/submit.png");
+          background-repeat: no-repeat;
+          background-position: 0% 0%;
+          height: 42px;
+          width: 42px;
+          position: relative;
+          left: 0;
+          background-color: transparent;
+          cursor: pointer;
+          -webkit-transition: all 0.2s ease-in-out 0s;
+          -khtml-transition: all 0.2s ease-in-out 0s;
+          -moz-transition: all 0.2s ease-in-out 0s;
+          -ms-transition: all 0.2s ease-in-out 0s;
+          -o-transition: all 0.2s ease-in-out 0s;
+          transition: all 0.2s ease-in-out 0s; }
+          #final-section .final-section .final-right-section form .form-group_custom_footer .btn_custom_footer:hover {
+            background-position: 0% 100%; }
+          #final-section .final-section .final-right-section form .form-group_custom_footer .btn_custom_footer:focus {
+            outline: none; }
 
 .page-title {
   color: #4A4A4A;
@@ -686,36 +756,6 @@ p {
   margin: 30px 0; }
 #contact-section .contact-left p {
   color: #4A4A4A; }
-#contact-section .contact-left .form-group_custom label {
-  color: #adadad;
-  font-size: 12px; }
-#contact-section .contact-left .form-group_custom .form-control_custom {
-  border-radius: 0;
-  border-color: #adadad;
-  -webkit-transition: all 0.2s ease-in-out 0s;
-  -khtml-transition: all 0.2s ease-in-out 0s;
-  -moz-transition: all 0.2s ease-in-out 0s;
-  -ms-transition: all 0.2s ease-in-out 0s;
-  -o-transition: all 0.2s ease-in-out 0s;
-  transition: all 0.2s ease-in-out 0s; }
-  #contact-section .contact-left .form-group_custom .form-control_custom:focus {
-    border-color: #4A4A4A; }
-#contact-section .contact-left .form-group_custom .btn_custom {
-  background-color: #D84846;
-  color: #fff;
-  padding: 10px 40px;
-  cursor: pointer;
-  border-radius: 0;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.18);
-  margin-bottom: 15px;
-  -webkit-transition: all 0.2s ease-in-out 0s;
-  -khtml-transition: all 0.2s ease-in-out 0s;
-  -moz-transition: all 0.2s ease-in-out 0s;
-  -ms-transition: all 0.2s ease-in-out 0s;
-  -o-transition: all 0.2s ease-in-out 0s;
-  transition: all 0.2s ease-in-out 0s; }
-  #contact-section .contact-left .form-group_custom .btn_custom:hover, #contact-section .contact-left .form-group_custom .btn_custom:focus {
-    background-color: #48a03e; }
 #contact-section .contact-right hr {
   width: 100%;
   margin-top: 0; }

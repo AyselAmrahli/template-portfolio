@@ -16,6 +16,7 @@ $('#clear-message').on('click',function(e){
 	$('#message').val('');
 });
 
+
 // animation
 if($(window).width() > 767){
 	$('#mission-section').appear(function(){
