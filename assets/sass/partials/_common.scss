@@ -152,3 +152,25 @@
 		}
 	}
 }
+
+// post-properties
+.post-properties{
+	border-top:1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	ul{
+		padding: 0;
+		margin:0;
+		line-height: 40px;
+	}
+	&-item{
+		display: inline-block;
+		list-style-type: none;
+		color:$lighten-gray-4;
+		margin-left: 15px;
+		font-size: 14px;
+		.fa{
+			margin-right: 10px;
+			color:$darken-red;
+		}
+	}
+}
