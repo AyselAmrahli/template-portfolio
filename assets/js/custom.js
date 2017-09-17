@@ -41,9 +41,14 @@ function scrollTop() {
     }
   });
 
-
+// owl carousel set
  $('.owl-blog-article').owlCarousel({
   items:1,
   nav:true,
   navText: ["<i class='fa fa-angle-left fa-4x'></i>","<i class='fa fa-angle-right fa-4x'></i>"]
+ });
+
+ $('.about-slider-owl').owlCarousel({
+  items:3,
+  dots: true
  });
