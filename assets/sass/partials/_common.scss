@@ -290,3 +290,18 @@
 	}
 }
 
+// read more button
+		.blog-items-single-read-more{
+			display: inline-block;
+			margin-bottom:15px;
+			font-size: 15px;
+			color:$darken-red;
+			@include transition();
+			text-decoration: underline;
+			.fa-angle-right{
+				margin-left: 5px;
+			}
+			&:hover{
+				color:$darken-gray;
+			}
+		}

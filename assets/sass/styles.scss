@@ -52,7 +52,7 @@
 		padding: 0;
 		.nav-item{
 			@include transition();
-			padding: 33px 42px 33px 42px;
+			padding: 33px 37px 33px 37px;
 			cursor: pointer;
 			position: relative;
 			&:hover{
@@ -389,7 +389,7 @@
 			z-index: 0;
 			overflow: hidden;
 			min-height: 200px;
-			padding:30px 30px 15px;
+			padding:60px 60px 30px;
 			&:before{
 				background: $red;
 				display: block;
@@ -694,20 +694,6 @@
 			color:$lighten-gray-3;
 			font-size: 14px;
 		}
-		&-read-more{
-			display: inline-block;
-			margin-bottom:15px;
-			font-size: 15px;
-			color:$darken-red;
-			@include transition();
-			text-decoration: underline;
-			.fa-angle-right{
-				margin-left: 5px;
-			}
-			&:hover{
-				color:$darken-gray;
-			}
-		}
 	}
 }
 
@@ -762,6 +748,85 @@
 			  .active{
 			  	background-color:$red;
 			  }
+		}
+	}
+}
+
+// events
+#latest-events{
+	.latest-events{
+		.left-sidebar{
+			h1{
+				color:$gray;
+			}
+			h6{
+				color:$gray;
+				font-size: 14px;
+			}
+			p{
+				color:$lighten-gray-4;
+				font-size: 13px;
+			}
+		}
+		&-title{
+			color:$gray;
+		}
+		&-item{
+			margin-bottom: 30px;
+		&-top{
+			width: 100%;
+			height: 200px;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+			&:before{
+				position: absolute;
+				content:"";
+				width: 100%;
+				height: 100%;
+				top:0;
+				left:0;
+				background-color: transparent;
+				@include transition();
+			}
+			.fa-search-plus{
+				position: absolute;
+				top:50%;
+				left: 50%;
+				transform:translate(-50%,-50%);
+				color:#fff;
+				opacity: 0;
+				@include transition();
+			}
+			&:hover{
+				&:before{
+					 background-color: rgba(0,0,0,0.5);
+				}
+				.fa-search-plus{
+					opacity: 1;
+				}
+			}
+		}
+		&-bottom{
+			width: 100%;
+			background-color: $gray;
+			padding:15px 30px 15px 30px;
+			h6 > a{
+				text-decoration: none;
+				color:$red;
+				@include transition();
+				&:hover{
+					color:#fff;
+				}
+			}
+			&-date{
+				color:#fff;
+				font-size: 13px;
+			}
+			&-desc{
+				color:$lighten-gray-4;
+			}
+		}
 		}
 	}
 }
