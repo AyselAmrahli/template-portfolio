@@ -42,6 +42,32 @@
   .container_custom {
     max-width: 1255px !important; } }
 
+#language-box {
+  position: fixed;
+  z-index: 100;
+  top: 15%;
+  right: 0;
+  padding-left: 0;
+  background-color: rgba(216, 72, 70, 0.85); }
+  #language-box li {
+    list-style-type: none;
+    text-align: center; }
+    #language-box li a {
+      padding: 3px 4px;
+      text-decoration: none;
+      color: #fff;
+      display: block;
+      font-size: 14px;
+      -webkit-transition: all 0.2s ease-in-out 0s;
+      -khtml-transition: all 0.2s ease-in-out 0s;
+      -moz-transition: all 0.2s ease-in-out 0s;
+      -ms-transition: all 0.2s ease-in-out 0s;
+      -o-transition: all 0.2s ease-in-out 0s;
+      transition: all 0.2s ease-in-out 0s; }
+      #language-box li a:hover, #language-box li a:focus {
+        background-color: #fff;
+        color: #D84846; }
+
 /*-------------------------------------------------------*/
 /* Preloader */
 /*-------------------------------------------------------*/
@@ -375,32 +401,6 @@
     margin-left: 5px; }
   .blog-items-single-read-more:hover {
     color: #3C3C3C; }
-
-#language-box {
-  position: absolute;
-  z-index: 100;
-  top: 15%;
-  right: 0;
-  padding-left: 0;
-  background-color: #D84846; }
-  #language-box li {
-    list-style-type: none;
-    text-align: center; }
-    #language-box li a {
-      padding: 3px 4px;
-      text-decoration: none;
-      color: #fff;
-      display: block;
-      font-size: 14px;
-      -webkit-transition: all 0.2s ease-in-out 0s;
-      -khtml-transition: all 0.2s ease-in-out 0s;
-      -moz-transition: all 0.2s ease-in-out 0s;
-      -ms-transition: all 0.2s ease-in-out 0s;
-      -o-transition: all 0.2s ease-in-out 0s;
-      transition: all 0.2s ease-in-out 0s; }
-      #language-box li a:hover, #language-box li a:focus {
-        background-color: #fff;
-        color: #D84846; }
 
 #section-header .navbar_custom {
   background-color: #D84846;
@@ -1059,5 +1059,85 @@
       font-size: 13px; }
     #latest-events .latest-events-item-bottom-desc {
       color: #9a9a9a; }
+
+#albums .albums a {
+  text-decoration: none; }
+#albums .albums-item {
+  height: auto;
+  position: relative;
+  margin-bottom: 30px; }
+  #albums .albums-item p {
+    font-size: 13px;
+    color: #9a9a9a;
+    margin-top: 10px; }
+  #albums .albums-item .grid-item {
+    float: left;
+    width: 33.3%;
+    height: auto; }
+    #albums .albums-item .grid-item img {
+      width: 100%;
+      min-height: auto;
+      object-fit: cover; }
+
+.single-album .albums-item {
+  text-align: center; }
+.single-album .grid-item {
+  position: relative; }
+  .single-album .grid-item:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -khtml-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s; }
+  .single-album .grid-item .fa-search-plus {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    opacity: 0;
+    z-index: 2;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -khtml-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    -ms-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s; }
+  .single-album .grid-item:hover:before {
+    background-color: rgba(0, 0, 0, 0.6); }
+  .single-album .grid-item:hover .fa-search-plus {
+    opacity: 1; }
+.single-album h1 {
+  color: #4A4A4A;
+  margin-top: 15px; }
+
+#album-photo .album-photo .single-photo {
+  width: 100%;
+  height: auto; }
+#album-photo .album-photo .pager {
+  padding: 5px 0;
+  margin-top: 15px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd; }
+  #album-photo .album-photo .pager .previous, #album-photo .album-photo .pager .next {
+    list-style-type: none;
+    padding: 3px 5px;
+    border: 1px solid #ddd; }
+    #album-photo .album-photo .pager .previous a, #album-photo .album-photo .pager .next a {
+      text-decoration: none;
+      color: #F0504E; }
+  #album-photo .album-photo .pager .previous {
+    float: left; }
+  #album-photo .album-photo .pager .next {
+    float: right; }
 
 /*# sourceMappingURL=styles.css.map */
