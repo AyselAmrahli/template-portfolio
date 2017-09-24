@@ -24,6 +24,21 @@ if($(window).width() > 767){
   	$(this).addClass('animated fadeInRight');
   })
 });
+  $('#videos').appear(function(){
+  $('.videos-item').each(function(){
+    $(this).addClass('animated fadeInUp');
+  })
+});
+  $('#albums').appear(function(){
+  $('.albums-item').each(function(){
+    $(this).addClass('animated fadeInRight');
+  })
+});
+   $('.last-news-events').appear(function(){
+  $('.last-news-events-item').each(function(){
+    $(this).addClass('animated fadeInUp');
+  })
+});
 };
 
  // scroll-up
@@ -61,3 +76,6 @@ function scrollTop() {
      $('body').delay(350).css({'overflow':'visible'});
 });
 
+
+// videopopup
+ jQuery("a.video-popup").YouTubePopUp();

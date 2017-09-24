@@ -8,7 +8,7 @@
 		<meta name="keywords" content="tags for website">
 		<meta name="description">
 		<meta name="author" content="">
-		<title>BLOG</title>
+		<title>Photo</title>
 		<!-- CSS -->
 		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
@@ -52,14 +52,14 @@
 									<li class="nav-item active">
 										<a class="nav-link" href="index.html"><span data-hover="HOME">HOME</span></a>
 									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#"><span data-hover="DROPDOWN">DROPDOWN</span></a>
-										<ul class="sub-menu" style="display: none;">
-											<li class="sub-menu-item"><a href="#">SUB MENU 1</a></li>
-											<li class="sub-menu-item"><a href="#">SUB MENU 2</a></li>
-											<li class="sub-menu-item"><a href="#">SUB MENU 3</a></li>
-										</ul>
-									</li>
+									<!-- 	<li class="nav-item">
+											<a class="nav-link" href="#"><span data-hover="DROPDOWN">DROPDOWN</span></a>
+											<ul class="sub-menu" style="display: none;">
+													<li class="sub-menu-item"><a href="#">SUB MENU 1</a></li>
+													<li class="sub-menu-item"><a href="#">SUB MENU 2</a></li>
+													<li class="sub-menu-item"><a href="#">SUB MENU 3</a></li>
+											</ul>
+									</li> -->
 									<li class="nav-item">
 										<a class="nav-link" href="about.html"><span data-hover="ABOUT">ABOUT</span></a>
 									</li>
@@ -78,13 +78,13 @@
 									<li class="nav-item">
 										<a class="nav-link" href="contact.html"><span data-hover="CONTACTS">CONTACT</span></a>
 									</li>
-									<!-- 	<li class="nav-item">
-											<a class="nav-link" href="#"><span data-hover="AZ">AZ</span></a>
-											<ul class="sub-menu" style="display: none;">
-																											<li class="sub-menu-item"><a href="#">RUS</a></li>
-																											<li class="sub-menu-item"><a href="#">EN</a></li>
-											</ul>
-									</li> -->
+									<li class="nav-item">
+										<a class="nav-link" href="#"><span data-hover="AZ">AZ</span></a>
+										<ul class="sub-menu" style="display: none;">
+											<li class="sub-menu-item"><a href="#">RUS</a></li>
+											<li class="sub-menu-item"><a href="#">EN</a></li>
+										</ul>
+									</li>
 								</ul>
 							</div>
 						</nav>
@@ -137,7 +137,7 @@
 					<div class="breadcrump-section">
 						<ol class="breadcrumb roboto-regular">
 							<li class="breadcrumb-item"><a href="/">Home</a></li>
-							<li class="breadcrumb-item active"><a href="blogs.html">Gallery</a></li>
+							<li class="breadcrumb-item active">Gallery</li>
 						</ol>
 					</div>
 				</div>
@@ -153,22 +153,19 @@
 					<div class="album-photo">
 						<div class="container container_custom">
 							<div class="row">
-								<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+								<div class="col-md-7 col-lg-7 col-sm-12 col-xs-12">
 									<img src="assets/images/blog1.jpg" alt="single photo" class="single-photo">
-										<ul class="pager clearfix">
-											<li class="previous"><a href="#">&laquo; Previous</a></li>
-											<li class="next"><a href="#">Next &raquo;</a></li>
+									<ul class="pager clearfix">
+										<li class="previous"><a href="#">&laquo; Previous</a></li>
+										<li class="next"><a href="#">Next &raquo;</a></li>
+									</ul>
+									<div class="related-photos d-none d-sm-block clearfix">
+										<h1 class="changa-one">RELATED IMAGES</h1>
+										<ul>
+											<li class="related-photos-item"><a href="#"><img src="assets/images/blog1.jpg" alt="photos"></a></li>
+											<li class="related-photos-item"><a href="#"><img src="assets/images/blog2.jpg" alt="photos"></a></li>
+											<li class="related-photos-item"><a href="#"><img src="assets/images/blog3.jpg" alt="photos"></a></li>
 										</ul>
-									<div class="row related-photos d-none d-sm-block">
-										<div class="col-md-4 col-lg-4 col-sm-12">
-											<a href="photo.html"><img src="assets/images/blog2.jpg" alt="photo"></a>
-										</div>
-										<div class="col-md-4 col-lg-4 col-sm-12">
-											<a href="photo.html"><img src="assets/images/blog2.jpg" alt="photo"></a>
-										</div>
-										<div class="col-md-4 col-lg-4 col-sm-12">
-											<a href="photo.html"><img src="assets/images/blog2.jpg" alt="photo"></a>
-										</div>
 									</div>
 									<div class="comment-box">
 										<div class="comment-box-written-by clearfix">
@@ -205,7 +202,17 @@
 										</form>
 									</div>
 								</div>
-								<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12"></div>
+								<div class="col-md-5 col-lg-5 col-sm-12 col-xs-12">
+									<div class="post-properties roboto-regular">
+										<ul>
+											<li class="post-properties-item"><i class="fa fa-bookmark"></i>Name of the Album</li>
+											<li class="post-properties-item"><i class="fa fa-tag"></i>Place</li>
+										</ul>
+									</div>
+									<p class="name-photo"><b>Name:</b>&nbsp;Name of Photo</p>
+									<p class="date-photo"><b>Date:</b>&nbsp;23/09/2017</p>
+									<p class="photo-desc user-select-none">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptates iure hic totam, possimus eum aut iusto. Similique, animi suscipit sapiente, beatae quo laboriosam dolore blanditiis impedit possimus illo nam.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque laudantium culpa sit cupiditate dolorum porro voluptates id. Mollitia nobis laborum dolorum explicabo amet ab aliquid asperiores minima, quis dolorem.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam assumenda, qui neque veritatis itaque accusantium modi, eaque. Quibusdam eveniet ut ullam quam! Odit atque saepe, maiores iste officia rerum alias.</p>
+								</div>
 							</div>
 						</div>
 					</div>
